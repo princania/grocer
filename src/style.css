@@ -14,3 +14,11 @@
 input{
   color: rgb(0, 140, 255);
 }
+
+#textArea{
+  min-height: 25vh;
+}
+
+.with{
+  min-width: 20vw;
+}
