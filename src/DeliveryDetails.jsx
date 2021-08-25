@@ -1,5 +1,7 @@
 import React from "react";
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import LocalShippingIcon from '@material-ui/icons/LocalShipping';
+
 
 export default function DeliveryDetails(){
 
@@ -32,9 +34,9 @@ export default function DeliveryDetails(){
         <h1 className="text-2xl m-5 text-blue-500 font-bold heading-font">{greeting} {name}</h1>
         <div>
             <div className="bg-gradient-to-br from-blue-400 to-blue-200 m-5 p-2 rounded-lg shadow-lg">
-                <h2 className="text-white heading-font p-2 text-xl font-bold" onClick={handleClick}>Delivery Details<button className="float-right animate-bounce "><ExpandMoreIcon className={arrowDirection?"transform rotate-180":""} /></button></h2>
+                <h2 className="text-white heading-font p-2 text-xl font-bold" onClick={handleClick}>Delivery Details <LocalShippingIcon /><button className="float-right animate-bounce "><ExpandMoreIcon className={arrowDirection?"transform rotate-180":""} /></button></h2>
                     <div className="p-3">
-                        <form className="space-y-1">
+                        <div className="space-y-1">
                             <div>
                             <label for="name" className="text-base text-white "><h3 className="inline-block ">Name</h3></label>
                             <input id="name" name="name" onChange={handleChange} className="pl-2 mb-0 w-52 bg-blue-100 shadow-inner float-right p-px  rounded-lg text-base" value={name} />
@@ -48,7 +50,7 @@ export default function DeliveryDetails(){
                             <label for="address" className="text-base text-white "><h3 className="inline-block">Address</h3></label>
                             <input id="address" name="address" className="pl-2 float-right p-px w-52 shadow-inner grid-rows-2 bg-blue-100 rounded-lg text-base" />
                             </div>
-                        </form>
+                        </div>
                     </div>
             </div>
         </div>
