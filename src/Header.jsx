@@ -1,8 +1,6 @@
 import React from "react";
 import HelpIcon from '@material-ui/icons/Help';
 import StoreIcon from '@material-ui/icons/Store';
-import Scroll from 'react-scroll';
-const ScrollLink = Scroll.ScrollLink;
 
 export default function TopHeader(){
 
