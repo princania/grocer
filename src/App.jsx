@@ -3,6 +3,7 @@ import TopHeader from "./Header";
 import DeliveryDetails from "./DeliveryDetails";
 import OrderBox from "./OrderBox";
 import OrderButton from "./OrderButton";
+import About from "./about"
 import emailjs from 'emailjs-com';
 
 function App(){
@@ -28,6 +29,7 @@ function App(){
                 <OrderBox />
                 <OrderButton />
             </form>
+            <About />
             </div>
         </div>
     );
