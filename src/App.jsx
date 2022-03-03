@@ -9,6 +9,7 @@ import emailjs from 'emailjs-com';
 function App(){
 
     function sendEmail(e) {
+        alert("Order Recieved");
         e.preventDefault();
     
         emailjs.sendForm('service_qvtkmie', 'template_swmw39i', e.target, 'user_OVCRDeCxGi5lYUTiwi4fC')
