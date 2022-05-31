@@ -1,3 +1,18 @@
+#Introduction
+This is a grocery delivery app hosted in www.rasan.xyz .
+
+This is a personal project, it was intended to be an startup initially.
+It is no longer in use, and might expire in few months and hence the link would no longer work.
+
+#Feature
+You would have to add your name, phone number and address, and and add the item's you want to order.
+When you tapped the ordered button, a email is sent to my delivery boy, who would go and buy the items from the
+nearest shop. And would deliver it to the address and would charge the customer a certain amount of service fee along with the cost of the item.
+
+This was made using React. Intresting concept, but gives nightmare when trying to debug a problem.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
